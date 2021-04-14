@@ -12,9 +12,9 @@ const firstNameLength = firstName.length;
 const middleNameLength = middleName.length;
 const lastNameLength = lastName.length;
 const superHeroName = () =>{
-    const first = firstName[Math.floor(Math.random()*(firstNameLength+1))];
-    const middle = middleName[Math.floor(Math.random()*(middleNameLength+1))];
-    const last = lastName[Math.floor(Math.random()*(lastNameLength+1))];
+    const first = firstName[Math.floor(Math.random()*(firstNameLength))];
+    const middle = middleName[Math.floor(Math.random()*(middleNameLength))];
+    const last = lastName[Math.floor(Math.random()*(lastNameLength))];
     return `Hi ${name}! Your SUPER-HERO name is ${first}-${middle}-${last}!`
     
 };
