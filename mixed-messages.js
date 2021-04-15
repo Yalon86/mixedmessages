@@ -34,6 +34,7 @@ const randomNumber = (name)=>{
 const firstNameLength = firstName.length;
 const middleNameLength = middleName.length;
 const lastNameLength = lastName.length;
+
 const superHeroName = () =>{
     const first = firstName[Math.floor(Math.random()*(firstNameLength))];
     const middle = middleName[Math.floor(Math.random()*(middleNameLength))];
