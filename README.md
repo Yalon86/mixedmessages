@@ -15,3 +15,4 @@ $ npm install prompt-sync
 
 If you would like more information just visit this page
 [Codecademy-User-Input](https://www.codecademy.com/articles/getting-user-input-in-node-js)
+
